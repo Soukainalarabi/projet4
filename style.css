@@ -296,7 +296,6 @@ a:hover {
     height: auto;
     padding: 3px 15px;
     font-size: 25px;
-    font-weight: normal;
     font-weight: 600;
     line-height: 44px;
 }
@@ -1038,5 +1037,11 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    p.text-center {
+        width: 56%;
+        /* text-align: center; */
+        margin-right: auto;
+        margin-left: auto;
     }
 }
