@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!-- <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design"> -->
-	<meta name="robots" content="index, follow">
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="description" content="web design contact">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -49,11 +49,10 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
-					<li>
+					
+					<!-- <li>
 						<a href="contact.html">Contact</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</nav>
@@ -66,10 +65,10 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				<p class="text-center mg-lg tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -86,21 +85,16 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+					 <label for="name">Nom</label>
+					 <input type="text" id="name" class="form-control" name="firstname" placeholder="Votre Nom ">
+						
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
+						<label for="email">Adresse email</label>
+						<input type="email" id="email" class="form-control" name="email" placeholder="Votre Email ">
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
+						<label for="email">Comment nous avez-vous connu ?</label>
+							
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
@@ -133,28 +127,28 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a aria-label="twitter" class="social" href="https://www.twitter.com/ "><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a aria-label="facebook"class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a aria-label="dribbble" class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a aria-label="instagram" class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>

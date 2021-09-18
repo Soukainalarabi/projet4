@@ -679,8 +679,7 @@ h4,
 h5,
 h6,
 label,
-.btn,
-a {
+.btn{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -696,6 +695,8 @@ p{
 
 .hero-bloc-text {
     font-size: 38px;
+    color: #3B1A07!important; 
+
 }
 
 .hero-bloc-text-sub {
@@ -814,7 +815,8 @@ h4 {
 }
 
 .tc-white {
-    color:#F3976C!important;
+    /* color:#F3976C!important; */
+    color: #fae3d6!important;
 }
 
 .btn-atomic-tangerine {
