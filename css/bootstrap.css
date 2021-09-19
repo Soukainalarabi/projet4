@@ -1416,12 +1416,6 @@ a:hover {
     text-decoration: underline
 }
 
-a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
-}
-
 figure {
     margin: 0
 }
@@ -3117,15 +3111,6 @@ select[multiple],
 select[size] {
     height: auto
 }
-
-input[type=file]:focus,
-input[type=checkbox]:focus,
-input[type=radio]:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
-}
-
 output {
     display: block;
     padding-top: 7px;
@@ -3672,15 +3657,16 @@ textarea.input-lg {
     border: 1px solid transparent;
     border-radius: 4px
 }
-
+a:focus,
+input[type=file]:focus,
+input[type=checkbox]:focus,
+input[type=radio]:focus,
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -4284,7 +4270,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4314,7 +4299,6 @@ tbody.collapse.in {
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .15);
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
@@ -4420,7 +4404,6 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
 }
 
 .dropup .dropdown-menu,
@@ -7019,7 +7002,6 @@ button.list-group-item-danger.active:hover {
 }
 
 .well blockquote {
-    border-color: #ddd;
     border-color: rgba(0, 0, 0, .15)
 }
 
@@ -7111,7 +7093,6 @@ button.close {
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #999;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 6px;
     outline: 0;
@@ -7216,7 +7197,6 @@ button.close {
     font-weight: 400;
     line-height: 1.42857143;
     text-align: left;
-    text-align: start;
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
@@ -7350,7 +7330,6 @@ button.close {
     font-weight: 400;
     line-height: 1.42857143;
     text-align: left;
-    text-align: start;
     text-decoration: none;
     text-shadow: none;
     text-transform: none;
@@ -7362,7 +7341,6 @@ button.close {
     background-color: #fff;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 6px;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
@@ -7422,7 +7400,6 @@ button.close {
     bottom: -11px;
     left: 50%;
     margin-left: -11px;
-    border-top-color: #999;
     border-top-color: rgba(0, 0, 0, .25);
     border-bottom-width: 0
 }
@@ -7439,7 +7416,6 @@ button.close {
     top: 50%;
     left: -11px;
     margin-top: -11px;
-    border-right-color: #999;
     border-right-color: rgba(0, 0, 0, .25);
     border-left-width: 0
 }
@@ -7457,7 +7433,6 @@ button.close {
     left: 50%;
     margin-left: -11px;
     border-top-width: 0;
-    border-bottom-color: #999;
     border-bottom-color: rgba(0, 0, 0, .25)
 }
 
@@ -7474,7 +7449,6 @@ button.close {
     right: -11px;
     margin-top: -11px;
     border-right-width: 0;
-    border-left-color: #999;
     border-left-color: rgba(0, 0, 0, .25)
 }
 
@@ -7680,7 +7654,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
