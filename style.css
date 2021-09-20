@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.WebP");
     background-size: 280px 280px;
 }
 
@@ -780,10 +779,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
-    display: block;
-    width: 270px;
-    height: 270px;
+   margin:auto;
 }
  /* p .text-center {
     color: #262121 !important;
@@ -859,9 +855,7 @@ h4 {
     background-image: url("img/dots-bg.WebP");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.WebP");
-}
+
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.WebP");
