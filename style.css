@@ -260,6 +260,7 @@ blockquote {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+    color: #000000;
 }
 
 blockquote:before,
@@ -284,6 +285,7 @@ blockquote:after {
 cite {
 	line-height: 3;
 	text-align: left;
+    color: #000000;
 }
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
